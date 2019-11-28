@@ -9,6 +9,7 @@
 		/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/timeline.css" />
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<noscript
 			><link rel="stylesheet" href="assets/css/noscript.css"
 		/></noscript>
@@ -18,8 +19,8 @@
 		<div id="page-wrapper">
 			<!-- Header -->
 			<header id="header" class="alt">
-				<nav id="nav" class="nav-centered">
-					<svg
+				<nav id="nav">
+					<!-- <svg
 						id="logo"
 						width="2em"
 						data-v-423bf9ae=""
@@ -44,7 +45,18 @@
 								d="M21.448 62.713l-7.035 12.479h60.701L38.308 12.607H26.672l29.683 50.106z"
 							></path>
 						</g>
-					</svg>
+					</svg> -->
+						<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menú</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="gol.html">Visualización</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
 				</nav>
 			</header>
 
@@ -89,8 +101,8 @@
 					<div class="image">
 						<img
 							src="images/math.jpg"
-							alt="Foto por Roman Mager en Unsplash"
-							title="Foto por Roman Mager en Unsplash"
+							alt="Foto por Roman Mager"
+							title="Foto por Roman Mager"
 						/>
 					</div>
 					<div class="content">
@@ -115,8 +127,8 @@
 					<div class="image">
 						<img
 							src="images/python.jpg"
-							alt="Foto por Chris Ried en Unsplash"
-							title="Foto por Chris Ried en Unsplash"
+							alt="Foto por Chris Ried"
+							title="Foto por Chris Ried"
 						/>
 					</div>
 					<div class="content">
@@ -231,28 +243,28 @@
 					<header class="major"></header>
 					<h2>Proyectos Personales</h2>
 					<ul class="features">
-						<li class="icon fa-paper-plane">
+						<li class="fa fa-server">
 							<h3>BlackJack Server <code>C</code></h3>
 							<p>
 								Ejercicio de implementación para servidor con
 								<code>sockets</code> y <code>pthread</code>
 							</p>
 						</li>
-						<li class="icon solid fa-laptop">
+						<li class="fa fa-road">
 							<h3>
 								<a
 									target="_blank"
 									href="https://gitlab.com/estructura-de-datos/path-finding"
-								></a>
-								Gasolineras en México <code>Python 3</code>
+								>Gasolineras en México</a><code>Python 3</code>
 							</h3>
 							<p>
 								Proyecto con algoritmo de <b>Dijkstra</b> para
 								encontrar la mejor ruta entre gasolineras de
 								México.
 							</p>
+							
 						</li>
-						<li class="icon solid fa-headphones-alt">
+						<li class="fa fa-braille">
 							<h3>
 								<a
 									target="_blank"
@@ -268,7 +280,7 @@
 							</h3>
 							<p>
 								Simulador con formatos <code>pgm</code> en
-								<code>C</code> y visualizador con
+								<code>C</code> y <a href="gol.html">visualizador</a> con
 								<code>p5</code>.
 							</p>
 						</li>
@@ -368,8 +380,8 @@
 							width="100%"
 							class="img-fluid"
 							src="images/iceskate.jpg"
-							alt="Photo by Matthew Fournier "
-							titile="Photo by Matthew Fournier "
+							alt="Foto porMatthew Fournier "
+							titile="Foto porMatthew Fournier "
 						/>
 					</div>
 					<!-- Grid column -->
@@ -380,8 +392,8 @@
 							width="100%"
 							class="img-fluid"
 							src="images/moto.jpg"
-							alt="Photo by Davids Kokainis "
-							title="Photo by Davids Kokainis "
+							alt="Foto porDavids Kokainis "
+							title="Foto porDavids Kokainis "
 						/>
 					</div>
 
@@ -391,8 +403,8 @@
 							width="100%"
 							class="img-fluid"
 							src="images/books.jpg"
-							alt="Photo by Patrick Tomasso "
-							title="Photo by Patrick Tomasso "
+							alt="Foto porPatrick Tomasso "
+							title="Foto porPatrick Tomasso "
 						/>
 					</div>
 
@@ -402,8 +414,8 @@
 							width="100%"
 							class="img-fluid"
 							src="images/xbox.jpg"
-							alt="Photo by Rohit Choudhari"
-							title="Photo by Rohit Choudhari"
+							alt="Foto porRohit Choudhari"
+							title="Foto porRohit Choudhari"
 						/>
 					</div>
 				</div>
